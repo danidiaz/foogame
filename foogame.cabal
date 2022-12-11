@@ -1,5 +1,5 @@
 cabal-version:      3.0
-name:               gamey
+name:               foogame
 version:            0.1.0.0
 -- synopsis:
 -- description:
@@ -21,6 +21,8 @@ executable gamey
     main-is:          Main.hs
     -- other-modules:
     -- other-extensions:
-    build-depends:    base ^>=4.15.1.0
+    build-depends:    base ^>=4.15.1.0,
+                      sdl2,
+                      linear,
     hs-source-dirs:   app
-    default-language: GHC2021
+    default-language: Haskell2010
