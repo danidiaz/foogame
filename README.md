@@ -1,6 +1,11 @@
 # Links
 
-- How to make the game run when using Nix in WSL2.
+- [How to make the game run when using Nix in WSL2](https://hachyderm.io/@DiazCarrete/109496648438688786).
+
+  > the solution was to use the "nixGLIntel" wrapper
+
+  > nixGLIntel cabal run
+
 
 - [SDL_RenderPresent()](https://wiki.libsdl.org/SDL2/SDL_RenderPresent). [SO question](https://stackoverflow.com/questions/63759688/sdl-renderpresent-implementation).
 
@@ -10,3 +15,4 @@
   
   > The backbuffer should be considered invalidated after each present; do not assume that previous contents will exist between frames. You are strongly encouraged to call SDL_RenderClear() to initialize the backbuffer before starting each new frame's drawing, even if you plan to overwrite every pixel.
   
+- [Lazy Foo' Productions - Beginning Game Programming v2.0](https://lazyfoo.net/tutorials/SDL/)
