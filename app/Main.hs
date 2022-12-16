@@ -33,7 +33,7 @@ appLoop renderer figure = do
   rendererDrawColor renderer $= V4 0 0 255 255
   clear renderer
   rendererDrawColor renderer $= V4 0 255 0 255
-  drawRect renderer $ Just figure
+  fillRect renderer $ Just figure
   -- https://stackoverflow.com/questions/63759688/sdl-renderpresent-implementation
   present renderer
   unless qPressed (appLoop renderer figure)
