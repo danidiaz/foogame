@@ -20,3 +20,9 @@
 - [Game Loop - Game Programming Patterns](https://gameprogrammingpatterns.com/game-loop.html)
 
 - [Fix your timestep (2004)](https://gafferongames.com/post/fix_your_timestep/)
+
+- [In SDL, what is the difference between using a Surfaces and a Renderer?](https://gamedev.stackexchange.com/questions/180077/in-sdl-what-is-the-difference-between-using-a-surfaces-and-a-renderer)
+
+  > Essentially, SDL_Surface is a tool for CPU side blit rendering, where as SDL_Renderer takes advantage of hardware acceleration, and performs the rendering on the GPU. SDL_Renderer provides an abstraction over several APIs and even offers a fallback CPU-side implementation if no other implementation suits your platform (unlikely).
+
+- [SDL2 on Game Development SE](https://gamedev.stackexchange.com/questions/tagged/sdl?tab=Votes)
