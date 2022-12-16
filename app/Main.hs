@@ -16,6 +16,7 @@ main = do
   let rendererConfig = defaultRenderer
   renderer <- createRenderer window (-1) rendererConfig
   appLoop renderer figure
+  destroyRenderer renderer
   destroyWindow window
   quit
 
