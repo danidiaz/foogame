@@ -26,3 +26,6 @@
   > Essentially, SDL_Surface is a tool for CPU side blit rendering, where as SDL_Renderer takes advantage of hardware acceleration, and performs the rendering on the GPU. SDL_Renderer provides an abstraction over several APIs and even offers a fallback CPU-side implementation if no other implementation suits your platform (unlikely).
 
 - [SDL2 on Game Development SE](https://gamedev.stackexchange.com/questions/tagged/sdl?tab=Votes)
+
+- [Game loop on Game Development SE](https://gamedev.stackexchange.com/questions/tagged/game-loop?tab=Votes)
+
