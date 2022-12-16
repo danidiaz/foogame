@@ -16,3 +16,7 @@
   > The backbuffer should be considered invalidated after each present; do not assume that previous contents will exist between frames. You are strongly encouraged to call SDL_RenderClear() to initialize the backbuffer before starting each new frame's drawing, even if you plan to overwrite every pixel.
   
 - [Lazy Foo' Productions - Beginning Game Programming v2.0](https://lazyfoo.net/tutorials/SDL/)
+
+- [Game Loop - Game Programming Patterns](https://gameprogrammingpatterns.com/game-loop.html)
+
+- [Fix your timestep (2004)](https://gafferongames.com/post/fix_your_timestep/)
